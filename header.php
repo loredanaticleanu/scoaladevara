@@ -39,13 +39,12 @@ require_once 'connect.php';
                 <li class="nav-item">
                     <a class="nav-link" href="cursuri.php">Cursuri</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="scoala_de_vara.php">Scoada de vara</a>
-                </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="participanti.php">Participanti</a>
+                    <a class="nav-link" href="program.php">Program</a>
                 </li>
+
+
                 <li class="nav-item">
                     <a class="nav-link" href="contact.php">Contact</a>
                 </li>
