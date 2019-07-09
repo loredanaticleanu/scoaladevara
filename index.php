@@ -13,7 +13,7 @@ include 'header.php';
 
             <div><img class="rounded" src="images/noi.jpeg" width="100%"></div>
             <br>
-            <p>LINK Academy este o şcoală internaţională pentru educaţie şi informatică, cu două filiale în România:
+            <p>Scoala de vara este o şcoală internaţională pentru educaţie şi informatică, cu două filiale în România:
                 într-o zonă ultracentrală din Bucureşti şi într-o zonă liniştită din Timişoara.
 
                 Din punct de vedere organizatoric, suntem parte a companiei internaţionale LINKgroup, înfiinţată în anul

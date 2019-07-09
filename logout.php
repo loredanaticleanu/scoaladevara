@@ -1,9 +1,10 @@
 <?php
 include 'connect.php';
 
+unset($_SESSION);
 session_unset();
 session_destroy();
-// redirectionam userul catre acasa
+
 header("Location: index.php");
 
 ?>

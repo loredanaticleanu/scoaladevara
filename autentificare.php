@@ -12,9 +12,11 @@ if (isset($_POST['submit'])) {
 
     if (mysqli_num_rows($result)) {
         $user = mysqli_fetch_assoc($result);
+
         if (password_verify($pass,  $user['password'])) {
             $_SESSION['logat'] = true;
             $_SESSION['user'] = $user;
+
             header("Location: acasa.php");
         }
     } else {
