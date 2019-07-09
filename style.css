@@ -1,0 +1,24 @@
+.main {
+    margin-top: 30px;
+}
+
+.footer {
+    height: 70px;
+    border-radius: 5px;
+
+}
+
+.navbar {
+    border-radius: 5px;
+}
+
+.links .nav-link {
+    padding-left: 0px;
+}
+.bg {
+    background-color: whitesmoke;
+}
+.button{
+    width: 50%;
+
+}
