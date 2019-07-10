@@ -18,26 +18,27 @@ if ($_SESSION['logat']) {
 
     <br>
     <div class="container text-justify" style="width: 100%">
-    <div class="card-deck">
+        <div class="card-deck">
 
-    <?php
-    while ($curs = mysqli_fetch_assoc($result)) {
-        ?>
-        <div class="card" style="width:400px">
-        <img class="card-img-top" src="images/<?php echo $curs['logo'] ?>" style="width:100%">
-        <div class="card-body">
-        <h4 class="card-title"><?php echo $curs['nume'] ?></h4>
-        <p class="card-text">
-        <?php echo $curs['detalii'] ?>
+            <?php
+                while ($curs = mysqli_fetch_assoc($result)) {
+                    ?>
+                    <div class="card" style="width:400px">
+                    <img class="card-img-top" src="images/<?php echo $curs['logo'] ?>" style="width:100%">
+                    <div class="card-body">
+                    <h4 class="card-title"><?php echo $curs['nume'] ?></h4>
+                    <p class="card-text">
+                    <?php echo $curs['detalii'] ?>
 
+                    </div>
+                    </div>
+                    <?php
+                }
+            ?>
         </div>
-        </div>
-        <?php
-    }
-        ?>
     </div>
-</div>
     <br>
     <?php
 
 }
+include 'footer.php';
